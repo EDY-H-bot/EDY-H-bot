@@ -1,0 +1,31 @@
+package TestEntidades;
+
+import java.util.Date;
+
+import Daolmp.TblProductoImp;
+import model.TblProducto;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		//realizamos 
+		TblProducto tblprod=new TblProducto();
+		TblProductoImp tblimp=new TblProductoImp();
+		//
+		tblprod.setNomprod("azucar rubia");
+		tblprod.setPrecio(3.5);
+		tblprod.setCantidad(4);
+		tblprod.setTotal(tblprod.getPrecio()*tblprod.getCantidad());
+		tblprod.setCodbarras("7778899");
+		tblprod.setNrolote("lote4589");
+		Date fecha=new Date();
+		Date fechasql=new Date(fecha.getTime());
+		tblprod.setFechaven(fechasql);
+		//
+		tblimp.RegistrarProducto(tblprod);
+		//
+		System.out.println("dato registro en BD");
+
+	}//fin del metodo principal
+
+}
