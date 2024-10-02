@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="interfaces.Icliente"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="model.TblCliente"/>
+<fullyQualifiedTypeName name="Daolmp.ClienteImp"/>
+<fullyQualifiedTypeName name="model.TblUsuario"/>
+<fullyQualifiedTypeName name="Daolmp.UsuarioImp"/>
+<fullyQualifiedTypeName name="interfaces.IUsuario"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

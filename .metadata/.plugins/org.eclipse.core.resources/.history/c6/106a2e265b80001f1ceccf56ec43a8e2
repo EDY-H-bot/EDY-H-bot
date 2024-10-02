@@ -1,0 +1,9 @@
+package Interfaces;
+
+import model.TblProducto;
+
+public interface IProcucto {
+	//declaramos sus metodos...
+	void RegistrarProducto(TblProducto producto);
+
+}//fin de interface
